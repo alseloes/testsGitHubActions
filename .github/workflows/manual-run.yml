@@ -1,0 +1,25 @@
+name: Manual Greeting Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "What is your name?"
+        required: true
+        default: "Juan"
+      language:
+        description: "Language (es/en)"
+        required: false
+        default: "en"
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: |
+          if [ "${{ github.event.inputs.language }}" = "es" ]; then
+            echo "Hola, ${{ github.event.inputs.name }} 👋"
+          else
+            echo "Hello, ${{ github.event.inputs.name }} 👋"
+          fi
