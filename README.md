@@ -1,1 +1,1 @@
-[![.github/workflows/manual-run.yml](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml/badge.svg?event=workflow_dispatch)](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml)
+[![.github/workflows/manual-run.yml](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml/badge.svg)](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml)
