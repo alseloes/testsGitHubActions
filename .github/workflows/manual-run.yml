@@ -15,7 +15,7 @@ on:
 jobs:
   greet:
     runs-on: ubuntu-latest
-    steps:
+  steps:
       - name: Print greeting
         run: |
           if [ "${{ github.event.inputs.language }}" = "es" ]; then
