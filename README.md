@@ -1,0 +1,1 @@
+[![Manual Greeting Workflow](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml/badge.svg)](https://github.com/alseloes/testsGitHubActions/actions/workflows/manual-run.yml)
